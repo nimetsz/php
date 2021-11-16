@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Da 2", serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    background-color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.baslik{
+    background-color: black;
+    margin-top: 4rem;
+}
+.container h1{
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    display: flex;
+    font-family:"Courier New", Courier, monospace;
+    font-size: 4rem;
+    letter-spacing: 3rem;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+@media screen and (max-width:768px){
+    .baslik{
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+    }
+    .container h1{
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    .picture img{
+        width: 80vw;
+        height: 45vh;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .galeri .web h2{
+        align-items: center;
+        width: 100%;
+        margin-top: 4rem;
+        font-size: 3.5rem;
+    }
+    .orta_alan{
+        width: 100%;
+        height: 70vh;
+    }
+    .orta_alan .orta{
+        margin: 8rem 1rem 2rem 1rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45vh;
+
+    }
+    .icerik{
+        font-size: 2rem;
+
+    }
+    
+}
+.galeri{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.galeri .picture img{
+    border: #ffffff solid 3px;
+    border-radius: 1rem;
+
+}
+.galeri .buton1{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+}
+.buton1 a{
+    margin: 5rem 3rem;
+
+}
+.galeri .web{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.web a{
+    color: white;
+}
+.buton1 a{
+    margin: 5rem 3rem;
+    font-family: Copperplate, Papyrus, fantasy, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(225, 225, 225, 0.4);
+
+
+}
+.buton1 a:hover{
+    color: #ffffff;
+    background-color: #e79110;
+    border-color: #ffffff;
+}
+.web h2{
+    font-family: fantasy ;
+    border-bottom:3px solid #ffffff;
+    padding-bottom: 7px;
+    font-size: 35px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    word-spacing: 1.2rem;
+}
+.web h2:hover{
+    transform: scale(1.3);
+}
+
+.orta_alan{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #000000;
+}
+.orta{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid #ffffff;
+    border-radius: 1rem;
+    margin: 8% 5% 10% 5%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+.orta:hover{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
+       url(images/arabalar.jpg) center;
+       
+       
+}
+.orta .icerik{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.orta h3{
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+.orta h3:hover{
+    color:#2f9946 ;
+    text-decoration: none;
+}
+.orta_buton a{
+    background:rgba(225, 225, 225, 0.4);
+    text-decoration: none;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+    transition: transform 0.4s linear 0s, 
+    
+}
+.orta_buton a:hover{
+    background-color: #2f9946;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+.orta .icerik p{
+    justify-content: center;
+    margin: 2rem 0;
+    text-indent: 15px;
+    font-size: 2rem;
+}
